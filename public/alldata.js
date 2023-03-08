@@ -1,5 +1,5 @@
 function AllData(){
-    const [data, setData] = React.useState('');
+    const [data, setData] = React.useState('');    
 
     React.useEffect(() => {
         
@@ -8,13 +8,12 @@ function AllData(){
             .then(response => response.json())
             .then(data => {
                 console.log(data);
-                setData(JSON.stringify(data));
+                setData(JSON.stringify(data));                
             });
 
     }, []);
 
-    return (
-    <>
+    return (<>
         <h5>All Data in Store:</h5>
         {data}
     </>);
