@@ -25,13 +25,15 @@ Currently deployed on AWS, but to run it on your machine, install Node.js on you
 - npm install express
 - npm install cors (to avoid conflicts when we start using more than one tier)
 - npm install mongodb
-- node index.js (to star the http server)
+- node index.js (to start the http server)
 - view at http://localhost:3000
-  &nbsp;
+&nbsp;
+<!--
 
 ## Screenshots
 
 ![picture alt](http://via.placeholder.com/200x150 "This shows how the application works")
+-->
 
 ## Technology used
 
